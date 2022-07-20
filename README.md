@@ -1,6 +1,6 @@
 #  Project Description
 
-Basic Business Card with my contacts and info made with React library.
+Basic Static Business Card with my contacts and info made with React library.
 
 #  React
 
