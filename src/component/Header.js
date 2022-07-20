@@ -8,7 +8,7 @@ export default function Header() {
         <header>
             <img className="profile-img" src={ ProfileImg } alt="profile img" />
             <h1>Ivan Pibiri</h1>
-            <p>Full-Stack Web Developer</p>
+            <p>Frontend Developer</p>
             <p>pibiriivan@gmail.com</p>
             <div className="btns">
                 <a href="https://www.linkedin.com/in/ivan-pibiri-438b95145"><button className="btn-linkedin">
