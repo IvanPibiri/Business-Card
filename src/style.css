@@ -1,0 +1,126 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap');
+
+:root {
+    --bg-full-content: #181616;
+    --bg-body: #3D3A3A;
+    --text: #FFF;
+    --bg-main: #736A6A;
+    --bg-img: #221F1F;
+    --text-job: #d39141;
+}
+
+html {
+    font-family: "Dosis", sans-serif;
+}
+
+body {
+    background: var(--bg-full-content);
+    color: var(--text);
+}
+
+.fullContent {
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-full-content);
+    align-items: center;
+    width: 400px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: var(--bg-main);
+    width: 400px;
+}
+
+main > h2, main > p {
+    padding: 0px 50px;
+}
+
+main > h2 {
+    margin-top: 25px;
+}
+
+main > p {
+    margin-top: 3px;
+}
+
+main > p:nth-child(4) {
+    margin-bottom: 25px;
+}
+
+.profile-img {
+    width: 400px;
+    height: 400px;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
+}
+
+header:not(img) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--bg-img);
+    border-radius: 10px 10px 0px 0px;
+}
+
+header h1 {
+    padding: 10px 0 0 0;
+}
+
+header p {
+    padding: 3px 0;
+}
+
+h1 + p {
+    color: var(--text-job);
+    padding-bottom: 10px;
+}
+
+.btns {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.btn-linkedin {
+    width: 150px;
+}
+
+.btn-github {
+    width: 150px;
+}
+
+footer {
+    width: 400px;
+    height: 70px;
+    background: var(--bg-img);
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    color: var(--bg-img);
+    font-size: 25px;
+    cursor: pointer;
+}
+
